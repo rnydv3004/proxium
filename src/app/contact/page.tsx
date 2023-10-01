@@ -8,7 +8,7 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function Page() {
   const [agreed, setAgreed] = useState(false)
   const [details, setDetails] = useState({
     firstName: '',
@@ -34,19 +34,24 @@ export default function Example() {
 
           if (response.ok) {
             toast.success("Confirmation Mail Sent!")
+            setDetails({
+              firstName: '',
+              lastName: '',
+              company: '',
+              phone: '',
+              email: '',
+              message: ''
+            })
           }
           else {
             throw new Error(response.statusText);
           }
         }
         else {
-          console.log("Please fil required fields")
           toast.error("Please fill required details")
         }
       }
       else {
-
-        console.log("Please agree with T&C")
         toast.error("Please agree with T&C")
       }
     } catch (error: any) {
