@@ -21,12 +21,12 @@ export default function FeatureSectionTwo() {
             </defs>
           </svg>
           <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            <h2 className="text-2xl text-left font-bold tracking-tight text-white sm:text-4xl">
               Empower Your Business
               <br />
               with Our Web Expertise
             </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-300">
+            <p className="text-left mt-4 sm:mt-6 text-base sm:text-lg leading-7 sm:leading-8 text-gray-300">
               Unlock Your Full Potential and Achieve Remarkable Efficiency with Our Comprehensive Services
             </p>
             {/* <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
@@ -34,9 +34,9 @@ export default function FeatureSectionTwo() {
               <Link href={"/underdev"} className="text-sm font-semibold leading-6 text-white">Learn More <span aria-hidden="true">→</span></Link>
             </div> */}
           </div>
-          <div className="relative mt-16 h-80 lg:mt-8">
+          <div className="relative h-80 lg:mt-8 w-full flex justify-between items-center">
             <Image
-              className="absolute left-0 top-0 w-[40rem] max-w-none rounded-lg bg-white/5 ring-1 ring-white/10"
+              className="sm:absolute left-0 top-10 w-full sm:mb-0 sm:w-[40rem] max-w-none rounded-lg bg-white/5 ring-1 ring-white/10"
               src={Dashboard}
               alt="Dashboard"
               width={1824}

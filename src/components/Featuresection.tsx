@@ -41,7 +41,7 @@ const features = [
 
 export default function FeatureSection() {
   return (
-    <div className=" py-4 sm:py-4 h-screen w-screen my-24 mb-28">
+    <div className="sm:py-4 w-screen sm:my-24 mb-28">
       <div className="mx-auto h-full max-w-7xl px-6 lg:px-8 flex flex-col justify-center">
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-indigo-600">Launch Your Business Online at &#9889;Lightning Speed</h2>
