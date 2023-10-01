@@ -49,7 +49,7 @@ export default function FeatureSection() {
           All-in-One Solutions for Elevating Your Online Business Presence
           </p>
           <p className="mt-6 text-md leading-6 text-gray-600">
-          From Deployment to Marketing, We've Got You Covered
+          From Deployment to Marketing, We\'ve Got You Covered
           </p>
         </div>
         <div className="mx-auto mt-8 max-w-2xl sm:mt-12 lg:mt-12 lg:max-w-4xl">
