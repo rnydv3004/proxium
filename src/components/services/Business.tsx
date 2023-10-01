@@ -34,7 +34,7 @@ export default function Business() {
                 </svg>
                 <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-20 lg:text-left">
                     <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-                        Unlock Your Business\'s Online Potential
+                        Unlock Online Potential of Your Business 
                     </h2>
                     <div className="mt-6 text-lg text-black leading-8 flex flex-wrap gap-2">
                         {
