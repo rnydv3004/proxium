@@ -26,7 +26,7 @@ export default function Page() {
                     <div className="p-8 sm:p-10 lg:flex-auto">
                         <h3 className="text-2xl font-bold tracking-tight text-gray-900">1 Year Subscription Plan</h3>
                         <p className="mt-6 text-base leading-7 text-gray-600">
-                            Our team of SEO experts is committed to delivering results tailored to your unique business goals. Whether you're a small startup or a well-established corporation, we have the experience and knowledge to create a customized SEO strategy that suits your needs.
+                            Our team of SEO experts is committed to delivering results tailored to your unique business goals. Whether you are a small startup or a well-established corporation, we have the experience and knowledge to create a customized SEO strategy that suits your needs.
                         </p>
                         <div className="mt-10 flex items-center gap-x-4">
                             <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">What’s included</h4>
