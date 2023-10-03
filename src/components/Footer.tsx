@@ -15,22 +15,22 @@ export default function Footer() {
                             <p className="tracking-wide text-gray-300 text-medium">Services</p>
                             <div className="mt-2 mr-0 mb-0 ml-0 space-y-2">
                                 <div>
-                                    <Link href={siteMap.websites} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Website</Link>
+                                    <Link href={siteMap.websites} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Website</Link>
                                 </div>
                                 <div>
-                                    <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Web Application</Link>
+                                    <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Web Application</Link>
                                 </div>
                                 <div>
-                                    <Link href={siteMap.seo} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">SEO: Serach Engine Optimization</Link>
+                                    <Link href={siteMap.seo} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">SEO: Serach Engine Optimization</Link>
                                 </div>
                                 <div>
-                                    <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Automation</Link>
+                                    <Link href={siteMap.automation} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Automation</Link>
                                 </div>
                                 <div>
-                                    <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Marketing</Link>
+                                    <Link href={siteMap.marketing} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Marketing</Link>
                                 </div>
                                 <div>
-                                    <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Customer Support Service</Link>
+                                    <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Customer Support Service</Link>
                                 </div>
                             </div>
                         </div>
@@ -38,19 +38,19 @@ export default function Footer() {
                             <p className="tracking-wide text-gray-300 text-medium">Pricing</p>
                             <div className="mt-2 mr-0 mb-0 ml-0 space-y-2">
                                 <div>
-                                    <Link href={siteMap.websites} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Website</Link>
+                                    <Link href={siteMap.websites} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Website</Link>
                                 </div>
                                 <div>
-                                    <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Web Application</Link>
+                                    <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Web Application</Link>
                                 </div>
                                 <div>
-                                    <Link href={siteMap.seo} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">SEO: Serach Engine Optimization</Link>
+                                    <Link href={siteMap.seo} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">SEO: Serach Engine Optimization</Link>
                                 </div>
                                 <div>
-                                    <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Automation</Link>
+                                    <Link href={siteMap.automation} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Automation</Link>
                                 </div>
                                 <div>
-                                    <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Marketing</Link>
+                                    <Link href={siteMap.marketing} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Marketing</Link>
                                 </div>
                                 <div>
                                     <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Customer Support Service</Link>
@@ -75,10 +75,10 @@ export default function Footer() {
 
                             </div>
                             <div>
-                                <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Team</Link>
+                                <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Team</Link>
                             </div>
                             <div>
-                                <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Support</Link>
+                                <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Support</Link>
                             </div>
                         </div>
                     </div>
@@ -95,16 +95,16 @@ export default function Footer() {
                         <p className="mt-4 mr-0 mb-0 ml-0 text-sm text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimh.</p>
                     </div> */}
-                    <div className="flex flex-col gap-5 lg:flex-1 w-fit">
+                    <div className="flex flex-col gap-5 lg:flex-1 w-fit mt-10">
                         <Link href="/" className="flex h-fit">
                             <Image src={Logo} alt="Logo" height={28} />
                             <p className='text-blue-800 font-bold text-2xl'>roxium</p>
                         </Link>
                         <p className='text-sm text-slate-400 w-fit'>Contact: (+1)647-500-7503</p>
-                    </div>                    
+                    </div>
                 </div>
                 <div className="flex flex-col justify-between pt-4 pr-0 pb-5 pl-0 border-t border-gray-800 sm:flex-row">
-                    <p className="text-sm text-gray-500">© Copyright 2021 Lorem Inc. All rights reserved.</p>
+                    {/* <p className="text-sm text-gray-500">© Copyright 2021 Lorem Inc. All rights reserved.</p> */}
                     <div className="flex items-center mt-4 space-x-4 sm:mt-0"><i className="fa-twitter h-5 fab text-gray-500
           transition-colors duration-300 hover:text-teal-accent-400"></i><i className="fa-instagram h-5 fab
           text-gray-500 transition-colors duration-300 hover:text-teal-accent-400"></i><i className="fa-facebook h-5

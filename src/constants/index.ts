@@ -1,5 +1,7 @@
 export const siteMap = {
     websites : "/websites",
     seo: "/seo",
-    contact: "/contact"
+    contact: "/contact",
+    marketing: "/marketing",
+    automation: "/automation"
 }
