@@ -4,14 +4,15 @@ import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
 import { ArrowPathIcon, CursorArrowRaysIcon, WindowIcon, ChatBubbleLeftEllipsisIcon, CodeBracketIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Logo from '../../public/logo.png'
 import Image from 'next/image'
+import { siteMap } from '@/constants'
 
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
 
 const products = [
-    { name: 'Website', description: 'Enhance User Engagement and Experience', href: '/websites', icon: WindowIcon },
+    { name: 'Website', description: 'Enhance User Engagement and Experience', href: siteMap.websites, icon: WindowIcon },
     { name: 'Web App Development', description: 'Engage and Interact Effectively with Your Audience', href: '/underdev', icon: CodeBracketIcon },
-    { name: 'SEO', description: 'Protect and Optimize Customer Data for Better Visibility', href: '/underdev', icon: CursorArrowRaysIcon },
+    { name: 'SEO', description: 'Protect and Optimize Customer Data for Better Visibility', href: siteMap.seo, icon: CursorArrowRaysIcon },
     { name: 'Automations', description: 'Streamline Operations and Integrate with External Tools', href: '/underdev', icon: ArrowPathIcon },
     { name: 'Marketing Support', description: 'Create Targeted Funnels to Drive Conversions', href: '/underdev', icon: ChatBubbleLeftEllipsisIcon },
 ]

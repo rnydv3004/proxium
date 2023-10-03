@@ -21,7 +21,7 @@ export default function Footer() {
                                     <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Web Application</Link>
                                 </div>
                                 <div>
-                                    <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">SEO: Serach Engine Optimization</Link>
+                                    <Link href={siteMap.seo} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">SEO: Serach Engine Optimization</Link>
                                 </div>
                                 <div>
                                     <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Automation</Link>
@@ -44,7 +44,7 @@ export default function Footer() {
                                     <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Web Application</Link>
                                 </div>
                                 <div>
-                                    <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">SEO: Serach Engine Optimization</Link>
+                                    <Link href={siteMap.seo} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">SEO: Serach Engine Optimization</Link>
                                 </div>
                                 <div>
                                     <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Automation</Link>
