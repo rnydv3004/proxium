@@ -12,7 +12,7 @@ export default function page() {
           <div className="mx-auto max-w-2xl sm:text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Your <span className='text-green-600'>Costs</span>, Your <span className='text-green-600'>Control</span></h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Transparent pricing: Pay only for what you use. No hidden costs. Enjoy the flexibility of our 'Pay as You Go' model. Your budget, your control.
+              Transparent pricing: Pay only for what you use. No hidden costs. Enjoy the flexibility of our Pay as You Go model. Your budget, your control.
             </p>
           </div>
           {/* Website Pricing */}
