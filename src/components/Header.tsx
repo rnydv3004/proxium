@@ -98,13 +98,13 @@ export default function Header() {
                         </Transition>
                     </Popover>
 
-                    <Link href="/underdev" className="text-sm font-semibold leading-6 text-gray-900">
+                    <Link href="/pricing" className="text-sm font-semibold leading-6 text-gray-900">
                         Pricing
                     </Link>
-                    <Link href="/underdev" className="text-sm font-semibold leading-6 text-gray-900">
+                    {/* <Link href="/underdev" className="text-sm font-semibold leading-6 text-gray-900">
                         Team
-                    </Link>
-                    <Link href="/underdev" className="text-sm font-semibold leading-6 text-gray-900">
+                    </Link> */}
+                    <Link href="/about" className="text-sm font-semibold leading-6 text-gray-900">
                         About
                     </Link>
                 </Popover.Group>
@@ -159,24 +159,24 @@ export default function Header() {
                                         </>
                                     )}
                                 </Disclosure>
-                                <a
-                                    href="/underdev"
+                                <Link
+                                    href="/pricing"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
                                     Pricing
-                                </a>
-                                <a
+                                </Link>
+                                {/* <a
                                     href="/underdev"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
                                     Team
-                                </a>
-                                <a
-                                    href="/underdev"
+                                </a> */}
+                                <Link
+                                    href="/about"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
                                     About
-                                </a>
+                                </Link>
                             </div>
                             {/* <div className="py-6">
                                 <a

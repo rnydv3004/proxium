@@ -30,7 +30,7 @@ export default function Footer() {
                                     <Link href={siteMap.marketing} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Marketing</Link>
                                 </div>
                                 <div>
-                                    <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Customer Support Service</Link>
+                                    <Link href={siteMap.about} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Customer Support Service</Link>
                                 </div>
                             </div>
                         </div>
@@ -75,10 +75,10 @@ export default function Footer() {
 
                             </div>
                             <div>
-                                <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Team</Link>
+                                <Link href={siteMap.about} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">About</Link>
                             </div>
                             <div>
-                                <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Support</Link>
+                                <Link href={siteMap.contact} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Support</Link>
                             </div>
                         </div>
                     </div>

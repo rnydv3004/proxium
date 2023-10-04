@@ -131,8 +131,8 @@ export default function Hero() {
               Empowering Your Business with State-of-the-Art Digital Solutions to Drive Growth and Success in the Modern Digital Landscape
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <Link href={"/underdev"} className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get Started</Link>
-              <Link href={"/underdev"} className="text-sm font-semibold leading-6 text-gray-900">Learn More <span aria-hidden="true">→</span></Link>
+              <Link href={"/contact"} className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get Started</Link>
+              {/* <Link href={"/underdev"} className="text-sm font-semibold leading-6 text-gray-900">Learn More <span aria-hidden="true">→</span></Link> */}
             </div>
           </div>
         </div>

@@ -2,16 +2,7 @@ import { siteMap } from '@/constants'
 import { CheckIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
 
-const includedFeatures = [
-    'Digital Marketing',
-    'Content Creation',
-    'Brand Development',
-    'Market Research',
-    'Social Media Marketing',
-    'Video Production and Marketing',
-    'Data Analytics',
-    'Event Promotion'
-]
+import { marketingFeatures, pricingList } from '@/constants'
 
 export default function Page() {
     return (
@@ -37,7 +28,7 @@ export default function Page() {
                             role="list"
                             className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6"
                         >
-                            {includedFeatures.map((feature) => (
+                            {marketingFeatures.map((feature) => (
                                 <li key={feature} className="flex gap-x-3">
                                     <CheckIcon className="h-6 w-5 flex-none text-indigo-600" aria-hidden="true" />
                                     {feature}
@@ -50,7 +41,7 @@ export default function Page() {
                             <div className="mx-auto max-w-xs px-8">
                                 <p className="text-base font-semibold text-gray-600">1 Month Subscription Plan</p>
                                 <p className="mt-6 flex items-baseline justify-center gap-x-2">
-                                    <span className="text-5xl font-bold tracking-tight text-gray-900">$399</span>
+                                    <span className="text-5xl font-bold tracking-tight text-gray-900">${pricingList.marketingOneMonth}</span>
                                     <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">CAD</span>
                                 </p>
                                 <Link

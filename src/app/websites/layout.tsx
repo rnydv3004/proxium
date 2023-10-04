@@ -43,19 +43,14 @@ export default function Layout({
                                     <NewspaperIcon />
                                     <p>Blogs/News<br /> Website</p>
                                 </Link>
-                                <div className='flex flex-col gap-2 h-auto w-auto hover:scale-105 active:scale-100 cursor-pointer transition-transform transform duration-300'>
+                                <Link href={'/websites/portfolio-page'} className='flex flex-col gap-2 h-auto w-auto hover:scale-105 active:scale-100 cursor-pointer transition-transform transform duration-300' >
                                     <FolderIcon />
                                     <p>Portfolio<br /> Website</p>
-                                </div>
+                                </Link>
                                 <Link href={'/websites/landing-page'} className='flex flex-col gap-2 h-auto w-auto hover:scale-105 active:scale-100 cursor-pointer transition-transform transform duration-300'>
                                     <ArrowDownTrayIcon />
                                     <p>Landing Page<br /> Website</p>
                                 </Link>
-                                <div className='flex flex-col gap-2 h-auto w-auto hover:scale-105 active:scale-100 cursor-pointer transition-transform transform duration-300'>
-                                    <ChatBubbleBottomCenterIcon />
-                                    <p>Forum<br /> Website</p>
-                                </div>
-
                             </div>
                         </div>
                     </div>
