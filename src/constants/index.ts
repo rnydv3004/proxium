@@ -3,5 +3,6 @@ export const siteMap = {
     seo: "/seo",
     contact: "/contact",
     marketing: "/marketing",
-    automation: "/automation"
+    automation: "/automation",
+    webapp: "/webapp"
 }

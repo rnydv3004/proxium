@@ -41,7 +41,7 @@ export default function Footer() {
                                     <Link href={siteMap.websites} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Website</Link>
                                 </div>
                                 <div>
-                                    <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Web Application</Link>
+                                    <Link href={siteMap.webapp} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Web Application</Link>
                                 </div>
                                 <div>
                                     <Link href={siteMap.seo} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">SEO: Serach Engine Optimization</Link>
@@ -50,10 +50,10 @@ export default function Footer() {
                                     <Link href={siteMap.automation} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Automation</Link>
                                 </div>
                                 <div>
-                                    <Link href={siteMap.marketing} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Marketing</Link>
+                                    <Link href={siteMap.marketing} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Marketing</Link>
                                 </div>
                                 <div>
-                                    <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500">Customer Support Service</Link>
+                                    <Link href={"/underdev"} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Customer Support Service</Link>
                                 </div>
                             </div>
                             <div>
