@@ -16,7 +16,7 @@ export default function page() {
             </p>
           </div>
           {/* Website Pricing */}
-          <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
+          <div id='webPrice' className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
             <div className="p-8 sm:p-10 lg:flex-auto">
               <h3 className="text-2xl font-bold tracking-tight text-gray-900">Website: Development + Hosting + SEO + 1 Year <span className='text-green-600'>FREE</span> Support</h3>
               <p className="mt-6 text-base leading-7 text-gray-600">
@@ -60,7 +60,7 @@ export default function page() {
             </div>
           </div>
           {/* Web Application Pricing */}
-          <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
+          <div id='webAppPrice' className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
             <div className="p-8 sm:p-10 lg:flex-auto">
               <h3 className="text-2xl font-bold tracking-tight text-gray-900">Web Application: Development + Hosting + 1 Year <span className='text-green-600'>FREE</span> Support</h3>
               <p className="mt-6 text-base leading-7 text-gray-600">
@@ -104,7 +104,7 @@ export default function page() {
             </div>
           </div>
           {/* Web Application Pricing */}
-          <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
+          <div id='automationPrice' className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
             <div className="p-8 sm:p-10 lg:flex-auto">
               <h3 className="text-2xl font-bold tracking-tight text-gray-900">Automation: Development + 1 Year <span className='text-green-600'>FREE</span> Support</h3>
               <p className="mt-6 text-base leading-7 text-gray-600">
@@ -136,7 +136,7 @@ export default function page() {
             </div>
           </div>
           {/* SEO Pricing */}
-          <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
+          <div id='seoPrice' className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
             <div className="p-8 sm:p-10 lg:flex-auto">
               <h3 className="text-2xl font-bold tracking-tight text-gray-900">SEO: 1 Year Subscription Plan</h3>
               <p className="mt-6 text-base leading-7 text-gray-600">
@@ -180,7 +180,7 @@ export default function page() {
             </div>
           </div>
           {/* Marketing Pricing */}
-          <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
+          <div id='marketingPrice' className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
             <div className="p-8 sm:p-10 lg:flex-auto">
               <h3 className="text-2xl font-bold tracking-tight text-gray-900">Marketing: 1 Year Month Plan</h3>
               <p className="mt-6 text-base leading-7 text-gray-600">

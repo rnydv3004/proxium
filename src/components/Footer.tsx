@@ -38,22 +38,22 @@ export default function Footer() {
                             <p className="tracking-wide text-gray-300 text-medium">Pricing</p>
                             <div className="mt-2 mr-0 mb-0 ml-0 space-y-2">
                                 <div>
-                                    <Link href={siteMap.pricing} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Website</Link>
+                                    <Link href={`${siteMap.pricing}#webPrice`} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Website</Link>
                                 </div>
                                 <div>
-                                    <Link href={siteMap.pricing} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Web Application</Link>
+                                    <Link href={`${siteMap.pricing}#webAppPrice`} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Web Application</Link>
                                 </div>
                                 <div>
-                                    <Link href={siteMap.pricing} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">SEO: Serach Engine Optimization</Link>
+                                    <Link href={`${siteMap.pricing}#automationPrice`} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">SEO: Serach Engine Optimization</Link>
                                 </div>
                                 <div>
-                                    <Link href={siteMap.pricing} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Automation</Link>
+                                    <Link href={`${siteMap.pricing}#seoPrice`} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Automation</Link>
                                 </div>
                                 <div>
-                                    <Link href={siteMap.pricing} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Marketing</Link>
+                                    <Link href={`${siteMap.pricing}#marketingPrice`} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Marketing</Link>
                                 </div>
                                 <div>
-                                    <Link href={siteMap.pricing} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Customer Support Service</Link>
+                                    <Link href={`${siteMap.pricing}#marketingPrice`} className="transition-colors duration-300 hover:text-deep-purple-accent-200 text-gray-500 text-sm">Customer Support Service</Link>
                                 </div>
                             </div>
                             <div>
@@ -100,7 +100,12 @@ export default function Footer() {
                             <Image src={Logo} alt="Logo" height={28} />
                             <p className='text-blue-800 font-bold text-2xl'>roxium</p>
                         </Link>
-                        <p className='text-sm text-slate-400 w-fit'>Contact: (+1)647-500-7503</p>
+                        <div className='flex flex-col gap-2'>
+                            <p className='text-sm text-slate-400 w-fit'>Contact:</p>
+                            {/* <p className='text-sm text-slate-400 w-fit'>Contact:</p> */}
+                            <p className='text-sm text-slate-400 w-fit'>CA: (+1) 6475007503</p>
+                            <p className='text-sm text-slate-400 w-fit'>IN: (+91) 7678319417</p>
+                        </div>
                     </div>
                 </div>
                 <div className="flex flex-col justify-between pt-4 pr-0 pb-5 pl-0 border-t border-gray-800 sm:flex-row">
